@@ -15,6 +15,7 @@
 
 body {
     font-family: var(--primary-font);
+    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
 }
 
 h1, h2, h3 {
@@ -98,7 +99,7 @@ h2 {
     /* events table font size small enough that 
       the table doesn't overflow on xs screens. 
       Size set back to 1rem in a media query 
-      for sm screens and up */
+      for small screens and up */
     font-size: 0.7rem;
 }
 
